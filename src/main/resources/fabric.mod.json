@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "ua_warner",
+	"version": "${version}",
+	"name": "UA Warner",
+	"description": "ГОЙДА!",
+	"authors": [
+		"TWOCHEG"
+	],
+	"contact": {
+		"sources": "https://github.com/TWOCHEG"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ua_warner/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.ua_warner.UaWarner"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
